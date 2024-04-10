@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+To follow the idea and sketch of the project go the following link (https://lucid.app/lucidchart/053f063b-f3b4-4ef1-8069-b3c995229d73/edit?viewport_loc=-284%2C3%2C2633%2C1426%2C0_0&invitationId=inv_94c2dcc6-9e5e-4424-829b-a7070c2fe090).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
