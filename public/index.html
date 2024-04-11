@@ -25,13 +25,13 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
-
+  <!--navbar ...boton lleva al inicio-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container-fluid justify-content-center">
       <span class="navbar-brand mb-0 h1 fs-2">Sismología en el mundo <i class="bi bi-globe-americas"></i></span>
     </div>
   </nav>
-
+  <!-- buscador por filtro-->
   <div class="container">
     <div class="row">
       <div class="col">
@@ -61,6 +61,38 @@
     </div>
   </div>
 
+  <!--box que muestra la información-->
+  <div class="card position-relative w-25 h-50 p-2 custom-padding"> <!--tiene CSS-->
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-Magnitude">Some quick example text </p>
+      <p class="card-place">Some quick example text</p>
+      <p class="card-time">Some quick example text </p>
+      <p class="card-mag_type">Some quick example text</p>
+      <p class="card-coordinate">Some quick example text </p>
+    </div>
+  </div>
+
+  <!--Paginación-->
+  <nav class="navabr fixed-bottom">
+    <div class="container d-flex justify-content-center">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
