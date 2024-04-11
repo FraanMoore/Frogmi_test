@@ -19,3 +19,11 @@ code {
   margin-top: 3%;
   left:10%;
 }
+.custom-comment input:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  box-decoration-break: none;
+  padding-left: 4%;
+ 
+}
